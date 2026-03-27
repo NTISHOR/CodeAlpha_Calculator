@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Scientific Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+
+  <!-- Top bar: DEG/RAD toggle & voice input -->
+  <div class="topbar">
+    <button id="modeBtn" type="button">DEG</button>
+    <button id="voiceBtn" type="button" aria-label="Voice Input">🎤</button>
+  </div>
+
+  <!-- History display -->
+  <div id="history" class="history"></div>
+
+  <!-- Main display -->
+  <div id="display" class="display">0</div>
+
+  <!-- Calculator buttons -->
+  <div class="buttons">
+    <button class="clear" type="button">C</button>
+    <button class="back" type="button">⌫</button>
+    <button class="memAdd" type="button">M+</button>
+    <button class="memSub" type="button">M-</button>
+    <button class="memRecall" type="button">MR</button>
+
+    <button type="button">7</button>
+    <button type="button">8</button>
+    <button type="button">9</button>
+    <button class="operator" type="button">/</button>
+    <button type="button">π</button>
+
+    <button type="button">4</button>
+    <button type="button">5</button>
+    <button type="button">6</button>
+    <button class="operator" type="button">*</button>
+    <button type="button">e</button>
+
+    <button type="button">1</button>
+    <button type="button">2</button>
+    <button type="button">3</button>
+    <button class="operator" type="button">-</button>
+    <button type="button">x²</button>
+
+    <button type="button">0</button>
+    <button type="button">.</button>
+    <button type="button">log</button>
+    <button class="operator" type="button">+</button>
+    <button type="button">√</button>
+
+    <button type="button">sin</button>
+    <button type="button">cos</button>
+    <button type="button">tan</button>
+    <button type="button">xʸ</button>
+    <button type="button">x!</button>
+
+    <button class="equal" type="button">=</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
